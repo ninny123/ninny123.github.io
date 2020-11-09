@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@1,300&display=swap');
+
+#visitenkarte {
+  width:600px;
+  height:250px;
+  background-color:SlateGray;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  flex-direction:row;
+  border-radius:2%;
+  font-family: 'Spectral SC', 
+  serif;
+}
+
+#inhalt {
+width:200px;
+height:250px;
+background-color:SlateGray;
+margin-left:auto;
+margin-right:auto;
+line-height: 1.2 ;
+
+}
+
+#inhalt h1 {
+  font-weight:900;
+  font-size:180%;
+  text-align:center;
+}
+
+#inhalt p {
+  font-size:70%;
+  font-weight:120;
+ 
+ 
+}
+
+#profilbild {
+  height:250px;
+  width:250px;
+  overflow:hidden;
+  border-radius:2%;
+}
+#profilbild img{
+  width:230px;
+  margin-top:-65px;
+}
+
+#kontakt{
+  width:100px;
+  background-color:LightSteelBlue;
+  text-align:center;
+  border-radius:3%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:80%;
+  font-weight:220;
+  
+}
+
+.box {
+  width:100px;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+  cursor:pointer;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 25px;
+  
+  }
+
+.box a {
+  color:MediumVioletRed;
+  text-decoration:none;
+}
+
+
+.fett {
+  color:pink;
+  font-weight:800;
+  margin-top: 50px;
+}
+
+  
